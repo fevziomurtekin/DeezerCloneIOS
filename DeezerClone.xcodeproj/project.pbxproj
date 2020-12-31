@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E3AC8FD259E6D880016B631 /* DeezerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3AC8FC259E6D880016B631 /* DeezerData.swift */; };
+		9E3AC902259E6FF80016B631 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3AC901259E6FF80016B631 /* Endpoints.swift */; };
 		9EEE2FCB2550803E0098F09D /* DeezerCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEE2FCA2550803E0098F09D /* DeezerCloneApp.swift */; };
 		9EEE2FCD2550803E0098F09D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEE2FCC2550803E0098F09D /* ContentView.swift */; };
 		9EEE2FCF2550803E0098F09D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EEE2FCE2550803E0098F09D /* Assets.xcassets */; };
@@ -33,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9E3AC8FC259E6D880016B631 /* DeezerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeezerData.swift; sourceTree = "<group>"; };
+		9E3AC901259E6FF80016B631 /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
 		9EEE2FC72550803E0098F09D /* DeezerClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeezerClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EEE2FCA2550803E0098F09D /* DeezerCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeezerCloneApp.swift; sourceTree = "<group>"; };
 		9EEE2FCC2550803E0098F09D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -100,6 +104,8 @@
 				9EEE2FCE2550803E0098F09D /* Assets.xcassets */,
 				9EEE2FD32550803E0098F09D /* Info.plist */,
 				9EEE2FD02550803E0098F09D /* Preview Content */,
+				9E3AC8FC259E6D880016B631 /* DeezerData.swift */,
+				9E3AC901259E6FF80016B631 /* Endpoints.swift */,
 			);
 			path = DeezerClone;
 			sourceTree = "<group>";
@@ -260,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9EEE2FCD2550803E0098F09D /* ContentView.swift in Sources */,
+				9E3AC8FD259E6D880016B631 /* DeezerData.swift in Sources */,
+				9E3AC902259E6FF80016B631 /* Endpoints.swift in Sources */,
 				9EEE2FCB2550803E0098F09D /* DeezerCloneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

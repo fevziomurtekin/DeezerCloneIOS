@@ -3,6 +3,7 @@ import SwiftUI
 struct ContentView: View {
     
     @State var isShownSplash:Bool = true
+    @State var genreModel:GenreModel? = nil
     
     var body: some View {
         VStack {
@@ -12,9 +13,18 @@ struct ContentView: View {
                 HomeView()
             }
         }.onAppear {
-            DispatchQueue.main.asyncAfter(deadline: .now() + 2.5){
-                withAnimation{
-                    self.isShownSplash = false
+            guard let url = URL(string: POINT_GENRE) else {
+                print("link broke : " + POINT_GENRE )
+                return
+            }
+            URLSession.shared.dataTask(with: url){(data,response, error) in
+                if let data = data {
+                    if let response = try? JSONDecoder().decode(GenreModel.self, from: data){
+                        DispatchQueue.main.async {
+                            self.genreModel = response
+                            self.isShownSplash = false
+                        }
+                    }
                 }
             }
         }
@@ -33,6 +43,11 @@ struct SplashView: View {
             .ignoresSafeArea()
             .overlay(
                 VStack(content: {
+                    Image("deezerIcon")
+                        .resizable()
+                        .scaledToFit()
+                        .padding(30.0)
+                    
                     Text("DeezerClone")
                         .font(Font.largeTitle)
                         .bold()
