@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct SplashScreen: View {
+struct ContentView: View {
     var body: some View {
         Color.black
             .ignoresSafeArea()
@@ -17,6 +17,6 @@ struct SplashScreen: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        SplashScreen()
+        ContentView()
     }
 }
