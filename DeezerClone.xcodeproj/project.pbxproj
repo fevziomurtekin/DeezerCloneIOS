@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9EEE2FCB2550803E0098F09D /* DeezerCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEE2FCA2550803E0098F09D /* DeezerCloneApp.swift */; };
+		9EEE2FCD2550803E0098F09D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEE2FCC2550803E0098F09D /* ContentView.swift */; };
+		9EEE2FCF2550803E0098F09D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EEE2FCE2550803E0098F09D /* Assets.xcassets */; };
+		9EEE2FD22550803E0098F09D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EEE2FD12550803E0098F09D /* Preview Assets.xcassets */; };
+		9EEE2FDD2550803E0098F09D /* DeezerCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEE2FDC2550803E0098F09D /* DeezerCloneTests.swift */; };
+		9EEE2FE82550803F0098F09D /* DeezerCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEE2FE72550803F0098F09D /* DeezerCloneUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9EEE2FD92550803E0098F09D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EEE2FBF2550803E0098F09D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EEE2FC62550803E0098F09D;
+			remoteInfo = DeezerClone;
+		};
+		9EEE2FE42550803F0098F09D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EEE2FBF2550803E0098F09D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EEE2FC62550803E0098F09D;
+			remoteInfo = DeezerClone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9EEE2FC72550803E0098F09D /* DeezerClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeezerClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EEE2FCA2550803E0098F09D /* DeezerCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeezerCloneApp.swift; sourceTree = "<group>"; };
+		9EEE2FCC2550803E0098F09D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9EEE2FCE2550803E0098F09D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9EEE2FD12550803E0098F09D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9EEE2FD32550803E0098F09D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EEE2FD82550803E0098F09D /* DeezerCloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeezerCloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EEE2FDC2550803E0098F09D /* DeezerCloneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeezerCloneTests.swift; sourceTree = "<group>"; };
+		9EEE2FDE2550803E0098F09D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EEE2FE32550803F0098F09D /* DeezerCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeezerCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EEE2FE72550803F0098F09D /* DeezerCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeezerCloneUITests.swift; sourceTree = "<group>"; };
+		9EEE2FE92550803F0098F09D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9EEE2FC42550803E0098F09D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EEE2FD52550803E0098F09D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EEE2FE02550803F0098F09D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9EEE2FBE2550803E0098F09D = {
+			isa = PBXGroup;
+			children = (
+				9EEE2FC92550803E0098F09D /* DeezerClone */,
+				9EEE2FDB2550803E0098F09D /* DeezerCloneTests */,
+				9EEE2FE62550803F0098F09D /* DeezerCloneUITests */,
+				9EEE2FC82550803E0098F09D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9EEE2FC82550803E0098F09D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9EEE2FC72550803E0098F09D /* DeezerClone.app */,
+				9EEE2FD82550803E0098F09D /* DeezerCloneTests.xctest */,
+				9EEE2FE32550803F0098F09D /* DeezerCloneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9EEE2FC92550803E0098F09D /* DeezerClone */ = {
+			isa = PBXGroup;
+			children = (
+				9EEE2FCA2550803E0098F09D /* DeezerCloneApp.swift */,
+				9EEE2FCC2550803E0098F09D /* ContentView.swift */,
+				9EEE2FCE2550803E0098F09D /* Assets.xcassets */,
+				9EEE2FD32550803E0098F09D /* Info.plist */,
+				9EEE2FD02550803E0098F09D /* Preview Content */,
+			);
+			path = DeezerClone;
+			sourceTree = "<group>";
+		};
+		9EEE2FD02550803E0098F09D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9EEE2FD12550803E0098F09D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9EEE2FDB2550803E0098F09D /* DeezerCloneTests */ = {
+			isa = PBXGroup;
+			children = (
+				9EEE2FDC2550803E0098F09D /* DeezerCloneTests.swift */,
+				9EEE2FDE2550803E0098F09D /* Info.plist */,
+			);
+			path = DeezerCloneTests;
+			sourceTree = "<group>";
+		};
+		9EEE2FE62550803F0098F09D /* DeezerCloneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9EEE2FE72550803F0098F09D /* DeezerCloneUITests.swift */,
+				9EEE2FE92550803F0098F09D /* Info.plist */,
+			);
+			path = DeezerCloneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9EEE2FC62550803E0098F09D /* DeezerClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EEE2FEC2550803F0098F09D /* Build configuration list for PBXNativeTarget "DeezerClone" */;
+			buildPhases = (
+				9EEE2FC32550803E0098F09D /* Sources */,
+				9EEE2FC42550803E0098F09D /* Frameworks */,
+				9EEE2FC52550803E0098F09D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeezerClone;
+			productName = DeezerClone;
+			productReference = 9EEE2FC72550803E0098F09D /* DeezerClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9EEE2FD72550803E0098F09D /* DeezerCloneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EEE2FEF2550803F0098F09D /* Build configuration list for PBXNativeTarget "DeezerCloneTests" */;
+			buildPhases = (
+				9EEE2FD42550803E0098F09D /* Sources */,
+				9EEE2FD52550803E0098F09D /* Frameworks */,
+				9EEE2FD62550803E0098F09D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9EEE2FDA2550803E0098F09D /* PBXTargetDependency */,
+			);
+			name = DeezerCloneTests;
+			productName = DeezerCloneTests;
+			productReference = 9EEE2FD82550803E0098F09D /* DeezerCloneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9EEE2FE22550803F0098F09D /* DeezerCloneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EEE2FF22550803F0098F09D /* Build configuration list for PBXNativeTarget "DeezerCloneUITests" */;
+			buildPhases = (
+				9EEE2FDF2550803F0098F09D /* Sources */,
+				9EEE2FE02550803F0098F09D /* Frameworks */,
+				9EEE2FE12550803F0098F09D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9EEE2FE52550803F0098F09D /* PBXTargetDependency */,
+			);
+			name = DeezerCloneUITests;
+			productName = DeezerCloneUITests;
+			productReference = 9EEE2FE32550803F0098F09D /* DeezerCloneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9EEE2FBF2550803E0098F09D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					9EEE2FC62550803E0098F09D = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					9EEE2FD72550803E0098F09D = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 9EEE2FC62550803E0098F09D;
+					};
+					9EEE2FE22550803F0098F09D = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 9EEE2FC62550803E0098F09D;
+					};
+				};
+			};
+			buildConfigurationList = 9EEE2FC22550803E0098F09D /* Build configuration list for PBXProject "DeezerClone" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9EEE2FBE2550803E0098F09D;
+			productRefGroup = 9EEE2FC82550803E0098F09D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9EEE2FC62550803E0098F09D /* DeezerClone */,
+				9EEE2FD72550803E0098F09D /* DeezerCloneTests */,
+				9EEE2FE22550803F0098F09D /* DeezerCloneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9EEE2FC52550803E0098F09D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EEE2FD22550803E0098F09D /* Preview Assets.xcassets in Resources */,
+				9EEE2FCF2550803E0098F09D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EEE2FD62550803E0098F09D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EEE2FE12550803F0098F09D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9EEE2FC32550803E0098F09D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EEE2FCD2550803E0098F09D /* ContentView.swift in Sources */,
+				9EEE2FCB2550803E0098F09D /* DeezerCloneApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EEE2FD42550803E0098F09D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EEE2FDD2550803E0098F09D /* DeezerCloneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EEE2FDF2550803F0098F09D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EEE2FE82550803F0098F09D /* DeezerCloneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9EEE2FDA2550803E0098F09D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9EEE2FC62550803E0098F09D /* DeezerClone */;
+			targetProxy = 9EEE2FD92550803E0098F09D /* PBXContainerItemProxy */;
+		};
+		9EEE2FE52550803F0098F09D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9EEE2FC62550803E0098F09D /* DeezerClone */;
+			targetProxy = 9EEE2FE42550803F0098F09D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9EEE2FEA2550803F0098F09D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9EEE2FEB2550803F0098F09D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9EEE2FED2550803F0098F09D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DeezerClone/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DeezerClone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fevziomurtekin.DeezerClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9EEE2FEE2550803F0098F09D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DeezerClone/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DeezerClone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fevziomurtekin.DeezerClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9EEE2FF02550803F0098F09D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DeezerCloneTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fevziomurtekin.DeezerCloneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeezerClone.app/DeezerClone";
+			};
+			name = Debug;
+		};
+		9EEE2FF12550803F0098F09D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DeezerCloneTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fevziomurtekin.DeezerCloneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeezerClone.app/DeezerClone";
+			};
+			name = Release;
+		};
+		9EEE2FF32550803F0098F09D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DeezerCloneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fevziomurtekin.DeezerCloneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DeezerClone;
+			};
+			name = Debug;
+		};
+		9EEE2FF42550803F0098F09D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DeezerCloneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fevziomurtekin.DeezerCloneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DeezerClone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9EEE2FC22550803E0098F09D /* Build configuration list for PBXProject "DeezerClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EEE2FEA2550803F0098F09D /* Debug */,
+				9EEE2FEB2550803F0098F09D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EEE2FEC2550803F0098F09D /* Build configuration list for PBXNativeTarget "DeezerClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EEE2FED2550803F0098F09D /* Debug */,
+				9EEE2FEE2550803F0098F09D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EEE2FEF2550803F0098F09D /* Build configuration list for PBXNativeTarget "DeezerCloneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EEE2FF02550803F0098F09D /* Debug */,
+				9EEE2FF12550803F0098F09D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EEE2FF22550803F0098F09D /* Build configuration list for PBXNativeTarget "DeezerCloneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EEE2FF32550803F0098F09D /* Debug */,
+				9EEE2FF42550803F0098F09D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9EEE2FBF2550803E0098F09D /* Project object */;
+}
