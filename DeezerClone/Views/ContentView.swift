@@ -6,7 +6,7 @@ struct ContentView: View {
     @State var genreModel:GenreModel? = nil
     
     var body: some View {
-        VStack {
+        ZStack {
             if self.isShownSplash {
                 SplashView()
             } else {
@@ -36,10 +36,14 @@ struct HomeView: View {
     var genreModel: GenreModel?
     
     var body: some View {
-        GenreList(genreDatas: (
-            genreModel?.data ??
-                [GenreData(id: 0, name: "Tümü", picture: "", picture_small: "", picture_medium: "", picture_big: "", picture_xl: "", type: "")]
-        ))
+        NavigationView {
+            GenreList(genreDatas: (
+                genreModel?.data ??
+                    [GenreData(id: 0, name: "Tümü", picture: "", picture_small: "", picture_medium: "", picture_big: "", picture_xl: "", type: "")]
+            ))
+        }
+        .navigationBarHidden(true)
+
     }
 }
     

@@ -11,12 +11,13 @@ struct GenreRow: View{
     var genreData: GenreData
     
     var body: some View{
-        HStack {
-            AsyncImage(url: URL(string:genreData.picture)!, placeholder: {
-                Text("Loading...")
-            }).frame(width: 100, height: 100, alignment: Alignment.center)
-            Text(genreData.name)
-        }
+        Text(genreData.name)
+            .font(.title2)
+            .fontWeight(Font.Weight.bold)
+            .foregroundColor(Color.white)
+            .background(
+                AsyncImage(url: URL(string:genreData.picture)!)
+            ).padding(40)
     }
 }
 

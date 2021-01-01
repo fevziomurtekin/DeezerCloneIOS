@@ -8,12 +8,17 @@
 import SwiftUI
 
 struct GenreList: View {
+    
     var genreDatas: [GenreData]
     
     var body: some View{
-        List(genreDatas, id: \.id) { data in
-            GenreRow(genreData: data)
-        }
+        ScrollView {
+                LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 20) {
+                    ForEach((0...genreDatas.count), id: \.self) {
+                        GenreRow(genreData: genreDatas[$0])
+                    }
+                }
+            }
     }
 }
 
