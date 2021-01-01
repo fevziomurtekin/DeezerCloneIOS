@@ -1,8 +1,8 @@
 //
-//  DeezerData.swift
+//  GenreModel.swift
 //  DeezerClone
 //
-//  Created by Fevzi Ömür Tekin on 31.12.2020.
+//  Created by Fevzi Ömür Tekin on 1.01.2021.
 //
 
 import Foundation

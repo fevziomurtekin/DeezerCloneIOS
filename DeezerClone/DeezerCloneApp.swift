@@ -11,7 +11,7 @@ import SwiftUI
 struct DeezerCloneApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(genreModel: nil)
         }
     }
 }
