@@ -42,8 +42,6 @@ struct HomeView: View {
                     [GenreData(id: 0, name: "Tümü", picture: "", picture_small: "", picture_medium: "", picture_big: "", picture_xl: "", type: "")]
             ))
         }
-        .navigationBarHidden(true)
-
     }
 }
     

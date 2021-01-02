@@ -11,3 +11,6 @@ private var baseUrl = "https://api.deezer.com"
 
 // end points
 var POINT_GENRE = baseUrl+"/genre"
+func POINT_ARTISTS(genreId:Int) -> String {
+    return baseUrl+"/genre/\(genreId)/artists"
+}
