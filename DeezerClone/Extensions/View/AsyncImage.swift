@@ -10,12 +10,15 @@ import SwiftUI
 struct AsyncImage: View {
     @StateObject private var loader: ImageLoader
     private let image: (UIImage) -> Image
+    private let imageType: DeezerImageType
     
     init(
         url: URL,
+        imageType: DeezerImageType = DeezerImageType.GridItem,
         @ViewBuilder image: @escaping (UIImage) -> Image = Image.init(uiImage:)
     ) {
         self.image = image
+        self.imageType = imageType
         _loader = StateObject(wrappedValue: ImageLoader(url: url, cache: Environment(\.imageCache).wrappedValue))
     }
     
@@ -27,13 +30,21 @@ struct AsyncImage: View {
     private var content: some View {
         Group {
             if loader.image != nil {
-                image(loader.image!)
-                    .ignoresSafeArea()
-                    .scaledToFill()
-                    .clipShape(Rectangle())
-                    .cornerRadius(CGFloat(15))
-                    .shadow(radius: CGFloat(15))
-
+                if imageType == DeezerImageType.GridItem {
+                    image(loader.image!)
+                        .ignoresSafeArea()
+                        .scaledToFill()
+                        .clipShape(Rectangle())
+                        .cornerRadius(CGFloat(15))
+                        .shadow(radius: CGFloat(15))
+                } else if imageType == DeezerImageType.ArtistDetails{
+                    image(loader.image!)
+                        .resizable()
+                        .scaledToFit()
+                } else {
+                    image(loader.image!)
+                        .scaledToFit()
+                }
             }
         }
     }

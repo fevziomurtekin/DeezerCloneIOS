@@ -10,7 +10,7 @@ struct ContentView: View {
             if self.isShownSplash {
                 SplashView()
             } else {
-                HomeView(genreModel: self.genreModel)
+                HomeView(gModel: self.genreModel)
             }
         }.onAppear {
             guard let genreUrl = URL(string: POINT_GENRE) else {
@@ -35,13 +35,27 @@ struct ContentView: View {
 struct HomeView: View {
     var genreModel: GenreModel?
     
+    init(gModel: GenreModel?) {
+        self.genreModel = gModel
+        UITabBar.appearance().barTintColor = UIColor.black
+    }
+    
     var body: some View {
-        NavigationView {
-            GenreList(genreDatas: (
-                genreModel?.data ??
-                    [GenreData(id: 0, name: "Tümü", picture: "", picture_small: "", picture_medium: "", picture_big: "", picture_xl: "", type: "")]
-            ))
-        }
+        TabView {
+            GenreView(genreDatas: genreModel?.data ??
+                        [GenreData(id: 0, name: "Tümü", picture: "", picture_small: "", picture_medium: "", picture_big: "", picture_xl: "", type: "")])
+                    .tabItem {
+                        Image(systemName: musicIcon)
+                    }
+                SearchView()
+                    .tabItem {
+                        Image(systemName: searchIcon)
+                    }
+                FavoritesView()
+                    .tabItem {
+                        Image(systemName: favoritesIcon)
+                    }
+        }.accentColor(Color.white)
     }
 }
     
