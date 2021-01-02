@@ -79,10 +79,3 @@ struct SplashView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView(
-            genreModel: GenreModel(data: [GenreData(id: 0, name: "Tümü", picture: "", picture_small: "", picture_medium: "", picture_big: "", picture_xl: "", type: "")])
-        )
-    }
-}

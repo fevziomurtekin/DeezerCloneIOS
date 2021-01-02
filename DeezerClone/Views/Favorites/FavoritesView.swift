@@ -9,6 +9,7 @@ import SwiftUI
 
 struct FavoritesView: View {
     var body: some View {
-        Text("Favorites View")
+        Text("You haven't added any favorite songs before.")
+            .navigationBarTitle(Text("Favorites"))
     }
 }
