@@ -37,13 +37,8 @@ struct AsyncImage: View {
                         .clipShape(Rectangle())
                         .cornerRadius(CGFloat(15))
                         .shadow(radius: CGFloat(15))
-                } else if imageType == DeezerImageType.ArtistDetails{
+                }  else {
                     image(loader.image!)
-                        .resizable()
-                        .scaledToFit()
-                } else {
-                    image(loader.image!)
-                        .scaledToFit()
                 }
             }
         }

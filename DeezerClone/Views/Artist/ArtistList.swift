@@ -11,15 +11,11 @@ struct ArtistList: View {
     var artistDatas: [ArtistData]
     
     var body: some View{
-        if artistDatas == nil {
-            Text("Unexpected error, please try again...")
-        } else {
-            ScrollView {
-                LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 20) {
-                    ForEach((0...artistDatas.count-1), id: \.self) { index in
-                        NavigationLink(destination: ArtistDetail(artistData: artistDatas[index])) {
-                            ArtistRow(artistData: artistDatas[index])
-                        }
+        ScrollView {
+            LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 20) {
+                ForEach((0...artistDatas.count-1), id: \.self) { index in
+                    NavigationLink(destination: ArtistDetail(artistData: artistDatas[index])) {
+                        ArtistRow(artistData: artistDatas[index])
                     }
                 }
             }

@@ -56,6 +56,7 @@ struct HomeView: View {
                         Image(systemName: favoritesIcon)
                     }
         }.accentColor(Color.white)
+        .navigationTitle(Text("Home"))
     }
 }
     

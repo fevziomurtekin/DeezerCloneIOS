@@ -13,6 +13,12 @@
 		9E1A054B25A079DA00E28488 /* ArtistRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1A054A25A079DA00E28488 /* ArtistRow.swift */; };
 		9E3AC902259E6FF80016B631 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3AC901259E6FF80016B631 /* Endpoints.swift */; };
 		9E421B8825A0C582007CEE31 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E421B8725A0C582007CEE31 /* SearchBar.swift */; };
+		9E421B9125A126D1007CEE31 /* SearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E421B9025A126D1007CEE31 /* SearchModel.swift */; };
+		9E421B9625A12A52007CEE31 /* AlbumModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E421B9525A12A52007CEE31 /* AlbumModel.swift */; };
+		9E421B9B25A12BBE007CEE31 /* ApiResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E421B9A25A12BBE007CEE31 /* ApiResult.swift */; };
+		9E421BA025A12E8F007CEE31 /* SearchList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E421B9F25A12E8F007CEE31 /* SearchList.swift */; };
+		9E421BAD25A131A0007CEE31 /* ResultType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E421BAC25A131A0007CEE31 /* ResultType.swift */; };
+		9E421BB225A13263007CEE31 /* SearchDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E421BB125A13263007CEE31 /* SearchDetailView.swift */; };
 		9E98EEEE25A0B9B9000B3C20 /* GenreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E98EEED25A0B9B9000B3C20 /* GenreView.swift */; };
 		9E98EEF325A0BA80000B3C20 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E98EEF225A0BA80000B3C20 /* SearchView.swift */; };
 		9E98EEF825A0BB22000B3C20 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E98EEF725A0BB22000B3C20 /* FavoritesView.swift */; };
@@ -58,6 +64,12 @@
 		9E1A054A25A079DA00E28488 /* ArtistRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistRow.swift; sourceTree = "<group>"; };
 		9E3AC901259E6FF80016B631 /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
 		9E421B8725A0C582007CEE31 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		9E421B9025A126D1007CEE31 /* SearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchModel.swift; sourceTree = "<group>"; };
+		9E421B9525A12A52007CEE31 /* AlbumModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumModel.swift; sourceTree = "<group>"; };
+		9E421B9A25A12BBE007CEE31 /* ApiResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiResult.swift; sourceTree = "<group>"; };
+		9E421B9F25A12E8F007CEE31 /* SearchList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchList.swift; sourceTree = "<group>"; };
+		9E421BAC25A131A0007CEE31 /* ResultType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultType.swift; sourceTree = "<group>"; };
+		9E421BB125A13263007CEE31 /* SearchDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDetailView.swift; sourceTree = "<group>"; };
 		9E98EEED25A0B9B9000B3C20 /* GenreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreView.swift; sourceTree = "<group>"; };
 		9E98EEF225A0BA80000B3C20 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		9E98EEF725A0BB22000B3C20 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
@@ -127,6 +139,10 @@
 			children = (
 				9E0AF12F259F350A00448C2D /* GenreModel.swift */,
 				9E1A0542259FB98400E28488 /* ArtistModel.swift */,
+				9E421B9025A126D1007CEE31 /* SearchModel.swift */,
+				9E421B9525A12A52007CEE31 /* AlbumModel.swift */,
+				9E421B9A25A12BBE007CEE31 /* ApiResult.swift */,
+				9E421BAC25A131A0007CEE31 /* ResultType.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -135,6 +151,8 @@
 			isa = PBXGroup;
 			children = (
 				9E98EEF225A0BA80000B3C20 /* SearchView.swift */,
+				9E421B9F25A12E8F007CEE31 /* SearchList.swift */,
+				9E421BB125A13263007CEE31 /* SearchDetailView.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -389,14 +407,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				9ED86EC8259F3E7800C82D54 /* ImageLoader.swift in Sources */,
+				9E421B9625A12A52007CEE31 /* AlbumModel.swift in Sources */,
 				9EEAE4E225A07BE80034C900 /* ArtistDetail.swift in Sources */,
+				9E421B9B25A12BBE007CEE31 /* ApiResult.swift in Sources */,
 				9ED86EC0259F3E5900C82D54 /* ImageCache.swift in Sources */,
 				9E98EEEE25A0B9B9000B3C20 /* GenreView.swift in Sources */,
 				9EEE2FCD2550803E0098F09D /* ContentView.swift in Sources */,
 				9EEAE4E725A08B970034C900 /* DeezerImageType.swift in Sources */,
+				9E421BA025A12E8F007CEE31 /* SearchList.swift in Sources */,
 				9ED86ED8259F41C500C82D54 /* GenreList.swift in Sources */,
 				9E0AF130259F350A00448C2D /* GenreModel.swift in Sources */,
 				9EB7C4CD259F8F7F00AA5AF4 /* ArtistsView.swift in Sources */,
+				9E421BB225A13263007CEE31 /* SearchDetailView.swift in Sources */,
+				9E421BAD25A131A0007CEE31 /* ResultType.swift in Sources */,
 				9E1A053E259FB8E500E28488 /* ArtistList.swift in Sources */,
 				9E98EEF325A0BA80000B3C20 /* SearchView.swift in Sources */,
 				9E1A054B25A079DA00E28488 /* ArtistRow.swift in Sources */,
@@ -405,6 +428,7 @@
 				9E421B8825A0C582007CEE31 /* SearchBar.swift in Sources */,
 				9E98EF0125A0BDE9000B3C20 /* IconEnv.swift in Sources */,
 				9ED86ED2259F3ED200C82D54 /* EnviromentCache.swift in Sources */,
+				9E421B9125A126D1007CEE31 /* SearchModel.swift in Sources */,
 				9E3AC902259E6FF80016B631 /* Endpoints.swift in Sources */,
 				9EEE2FCB2550803E0098F09D /* DeezerCloneApp.swift in Sources */,
 				9ED86EB1259F3B7800C82D54 /* GenreRow.swift in Sources */,
